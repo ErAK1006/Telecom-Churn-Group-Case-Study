@@ -1,7 +1,15 @@
 # Telecom-Churn-Group-Case-Study
-In the telecommunication industry, customers tend to change operators if not provided with attractive schemes and offers. It is very important for any telecom operator to prevent the present customers from churning to other operators. 
+In this segment, you will learn how decision trees and random forests stack up against logistic regression. You will be looking at the telecom churn prediction example that we considered in the earlier module. You will be using the same data set with the same problem statement and build the tree models to understand how they are better than the logistic regression model. Before you step into this, go through the data set and previous Python notebook and recall the initial steps of data cleaning and preparation for building the model. 
+
+You will use 21 variables related to customer behaviour (such as monthly bill, internet usage, etc.) to predict whether a particular customer will switch to another telecom provider or not, i.e., whether they will churn or not.
 
 ## Problem Statement
+You have a telecom firm that has collected data of all its customers. The main types of attributes are as follows:
+
+. Demographics (age, gender, etc.)
+. Services availed (internet packs purchased, special offers taken, etc.)
+. Expenses (amount of recharge done per month, etc.)
+Based on all this past information, you want to build a model that will predict whether a particular customer will churn or not, i.e., whether they will switch to a different service provider or not. So, the variable of interest, i.e., the target variable here is ‘Churn’, which will tell us whether or not a particular customer has churned. It is a binary variable where 1 means that the customer has churned and 0 means that the customer has not churned.
 
 ## Business Problem Overview
 In the telecom industry, customers are able to choose from multiple service providers and actively switch from one operator to another. In this highly competitive market, the telecommunications industry experiences an average of 15-25% annual churn rate. Given the fact that it costs 5-10 times more to acquire a new customer than to retain an existing one, customer retention has now become even more important than customer acquisition.
